@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 	<div class="page-wrapper">
     	<div class="container-fluid">
     		<div class="row page-titles">
@@ -849,10 +850,15 @@
 		</div>
 </div>
 
+=======
+	<div>	{{name}}
+</div>
+>>>>>>> acdee2519363561b13d28265a05c5f918b12364b
 </template>
 
 <script>
 export default {
+<<<<<<< HEAD
 	name: 'staff',
 	 created () {
 	$('#mainTable').editableTableWidget().numericInputExample().find('td:first').focus();
@@ -861,6 +867,9 @@ export default {
     $('#editable-datatable').DataTable();
 	});
 	}
+=======
+	name: 'staff'
+>>>>>>> acdee2519363561b13d28265a05c5f918b12364b
 }
 	
 </script>
